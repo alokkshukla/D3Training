@@ -1,4 +1,4 @@
-#Simple Bar Chart with D3
+# Simple Bar Chart with D3
 
 1. Select "svg" tag in body
 	- Not present, select "body" and append "svg"
@@ -15,6 +15,8 @@ _**Browser co-ordinates start from top left, go to bottom right**._
 - No shape => All enter. _When our dataset contains more items than there are available DOM elements, the surplus data items are stored in a sub set of this selection called the enter selection._
 - No data => All exit. _The exit selection contains those dom elements whose datums have left._
 - Example : 3 datapoints, 4 rects => 1 in exit; none in enter
+
+[Enter vs Exit](https://medium.com/@c_behrens/enter-update-exit-6cafc6014c36)
 
 
 
