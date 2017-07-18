@@ -10,3 +10,6 @@ svg.selectAll("rect")
       .attr("x",function(d,i){return 60*i;})
       .attr("y",function(d,i){return 300-15*d;})
       .attr("fill","pink");
+
+
+
